@@ -30,8 +30,12 @@ def turtleLetter(letter,tur):
         tur.left(90)
         tur.fd(20)
         tur.pu()
-        tur.setpos(40, 0)
-        tur.right(180)
+        #fixes
+        tur.right(90)
+        tur.fd(20)
+        tur.right(90)
+        tur.fd(35)
+        #tur.right(180)
 		
     elif letter == "B":
         tur.pu()
