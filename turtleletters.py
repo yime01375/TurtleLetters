@@ -262,11 +262,14 @@ def turtleLetter(letter,tur):
 
 	    
     elif letter == "L":
-	tur.setheading(0)
-      	tur.right(90)
-	tur.fd(5)
-        tur.left(90)
-        tur.fd(5)   
+	tur.right(90)
+	tur.fd(55)
+	tur.left(90)
+	tur.fd(35)
+	tur.pu()
+	tur.right(-90)
+	tur.fd(55)
+	tur.right(90)   
     elif letter == "M":
 	tur.setheading(0)
 	tur.left(90)
