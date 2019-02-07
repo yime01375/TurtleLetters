@@ -1,8 +1,4 @@
 import turtle
-
-
-
-
 def turtleLetter(letter,tur):
     if letter=="box":
         tur.setheading(0)
@@ -265,15 +261,15 @@ def turtleLetter(letter,tur):
 
     elif letter == "L":
 	tur.setheading(0)
-	tur.pu()
+	tur.pd()
       	tur.right(90)
 	tur.fd(5)
         tur.left(90)
         tur.fd(5)
-	tur.pd()
+	tur.pu()
     elif letter == "M":
 	tur.setheading(0)
-	tur.pu()
+	tur.pd()
 	tur.left(90)
 	tur.fd(5)
 	tur.right(130)
@@ -282,29 +278,29 @@ def turtleLetter(letter,tur):
 	tur.fd(3)
 	tur.right(130)
 	tur.fd(5)
-	tur.pd()
+	tur.pu()
     elif letter == "N":
 	tur.setheading(0)
-	tur.pu()
+	tur.pd()
 	tur.left(90)
 	tur.fd(5)
 	tur.right(130)
 	tur.fd(5)
 	tur.left(130)
 	tur.fd(5)
-	tur.pd()
+	tur.pu()
     elif letter == "O":
 	tur.setheading(0)
-	tur.pu()
-	tur.circle(5, 360)
 	tur.pd()
+	tur.circle(5, 360)
+	tur.pu()
     elif letter == "P":
 	tur.setheading(0)
-	tur.pu()
+	tur.pd()
 	tur.circle(3, 360)
 	tur.left(90)
 	tur.fd(5)
-	tur.pd()
+	tur.pu()
     elif letter == "Q":
 	tur.setheading(0)
 	tur.pu()
@@ -385,6 +381,7 @@ def turtleLetter(letter,tur):
 	tur.fd(55)
 	tur.right(90)
     elif letter == "U":
+	tur.pd()
         tur.right(90)
         tur.fd(80)
         tur.right(-45)
